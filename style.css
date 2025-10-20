@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(236, 232, 232);
+    color: rgb(209, 224, 214);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: rgb(241, 147, 6);
+    color: aliceblue;
+    padding: 1rem 0;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    float: right;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    border-color: darkblue;
+    box-shadow: 0 2px 5 px rgb(252, 255, 252);
+}
+
+.program-keahlian{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+.program-keahlian h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+
+.program-keahlian p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: transformc0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8 px 15 px rgba (0,0,0,0.15);
+}
+
+.card img {
+    width: 80 px;
+    height: auto;
+    margin-bottom: 15 px;
+
+}
+
+.card h3 {
+    margin-bottom: 10 px;
+    font-size: 1.1 rem;
+    color: #222;
+}
+
+.card p {
+    font-size: 0.9 rem;
+    color: #555;
+}
+
+
+h2 {
+    font-size: 15;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 5;
+    text-align: center;
+    font-weight: normal;
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    height: 50 px;
+}
